@@ -20,6 +20,8 @@ env:
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
   AWS_REGION: us-east-2
   EKS_CLUSTER: vprofile-eks
+  TF_VAR_clusterName: vprofile-eks
+  
  
 jobs:
   terraform:
